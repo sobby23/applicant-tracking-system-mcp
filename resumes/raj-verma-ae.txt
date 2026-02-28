@@ -1,0 +1,20 @@
+RAJ VERMA
+raj.verma@example.com | linkedin.com/in/rajverma
+
+SUMMARY
+ML Engineer with 5 years in NLP and production ML. Recent focus on LLMs and agentic systems.
+
+EXPERIENCE
+Senior ML Engineer, Platform Co. (2020 – Present)
+- Designed and shipped LLM-based features; prompt engineering, fine-tuning, evaluation
+- PyTorch and Hugging Face; Python APIs and MLOps (training pipelines, monitoring)
+- Worked with research and product on requirements and metrics
+
+ML Engineer, Data Co. (2017 – 2020)
+- NLP models and pipelines; TensorFlow and PyTorch
+
+EDUCATION
+PhD (NLP), University; BS Computer Science
+
+SKILLS
+Python, PyTorch, TensorFlow, LLMs, NLP, MLOps, Hugging Face, evaluation

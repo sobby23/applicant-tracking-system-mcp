@@ -1,0 +1,21 @@
+JANE DOE
+jane.doe@example.com | linkedin.com/in/janedoe
+
+SUMMARY
+Senior Software Engineer with 5 years of experience building backend services in Python. Led API design and database migrations at a fintech startup.
+
+EXPERIENCE
+Senior Software Engineer, Fintech Co. (2020 – Present)
+- Designed and implemented REST APIs used by 1M+ users
+- Wrote Python services and maintained PostgreSQL and Redis
+- Collaborated with product and design on requirements
+
+Software Engineer, Startup Inc. (2018 – 2020)
+- Built internal tools and APIs in Python and JavaScript
+- Worked with AWS (Lambda, SQS, RDS)
+
+EDUCATION
+BS Computer Science, State University
+
+SKILLS
+Python, REST APIs, PostgreSQL, Redis, AWS, Git

@@ -1,0 +1,20 @@
+SAM CHEN
+sam.chen@example.com | linkedin.com/in/samchen
+
+SUMMARY
+Software Engineer with 4 years of experience in Python and Go. Focus on APIs and distributed systems.
+
+EXPERIENCE
+Software Engineer, Tech Corp (2021 – Present)
+- Built microservices in Python and Go; REST and gRPC APIs
+- PostgreSQL, Redis, Kafka for event-driven flows
+- AWS (ECS, RDS, S3)
+
+Software Developer, Agency Co. (2019 – 2021)
+- Backend services and integrations; some JavaScript
+
+EDUCATION
+BS Computer Science, University of Tech
+
+SKILLS
+Python, Go, REST APIs, PostgreSQL, Redis, AWS, Kafka

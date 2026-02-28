@@ -1,0 +1,16 @@
+MARIA GARCIA
+maria.garcia@example.com | linkedin.com/in/mariagarcia
+
+EXPERIENCE
+Backend Developer, Startup XYZ (2020 – Present)
+- Python APIs and background jobs; PostgreSQL
+- Worked with product on requirements and timelines
+
+Junior Developer, Consulting Co. (2018 – 2020)
+- Python scripts and internal tools; basic SQL
+
+EDUCATION
+BS Computer Science, State College
+
+SKILLS
+Python, SQL, REST, Git

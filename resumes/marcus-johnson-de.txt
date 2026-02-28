@@ -1,0 +1,19 @@
+MARCUS JOHNSON
+marcus.johnson@example.com | linkedin.com/in/marcusjohnson
+
+SUMMARY
+Backend and data engineer. 4 years with Scala, Spark, and data pipelines.
+
+EXPERIENCE
+Data Engineer, Platform Co. (2020 – Present)
+- Spark and Scala pipelines; data lake and warehouse
+- SQL and Python; orchestration and monitoring
+
+Software Engineer, Data Team (2018 – 2020)
+- ETL and APIs; PostgreSQL and Redis
+
+EDUCATION
+BS Computer Science, Engineering School
+
+SKILLS
+Scala, Spark, SQL, Python, ETL, Data pipelines

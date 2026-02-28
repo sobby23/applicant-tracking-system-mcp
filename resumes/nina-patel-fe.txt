@@ -1,0 +1,20 @@
+NINA PATEL
+nina.patel@example.com | linkedin.com/in/ninapatel
+
+SUMMARY
+Frontend Engineer with 4 years in React and TypeScript. Focus on design systems and accessibility.
+
+EXPERIENCE
+Frontend Engineer, Product Co. (2020 – Present)
+- React and TypeScript; component library and design system
+- Accessibility (WCAG); performance and responsive design
+- Next.js and GraphQL
+
+Frontend Developer, Agency (2018 – 2020)
+- React and JavaScript; responsive sites
+
+EDUCATION
+BS Computer Science, Tech University
+
+SKILLS
+React, TypeScript, CSS, Accessibility, Next.js, GraphQL

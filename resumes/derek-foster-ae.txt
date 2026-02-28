@@ -1,0 +1,20 @@
+DEREK FOSTER
+derek.foster@example.com | linkedin.com/in/derekfoster
+
+SUMMARY
+Research scientist transitioning to ML engineering. 3 years research in ML/NLP; 1 year production ML.
+
+EXPERIENCE
+ML Engineer, Product Co. (2023 – Present)
+- Production ML pipelines; PyTorch and Hugging Face
+- LLM integration and evaluation; Python services
+
+Research Scientist, Lab (2020 – 2023)
+- NLP and representation learning; publications; PyTorch
+- Limited production or deployment experience
+
+EDUCATION
+PhD Machine Learning, Research University
+
+SKILLS
+PyTorch, NLP, research, Python, Hugging Face, LLMs (emerging)

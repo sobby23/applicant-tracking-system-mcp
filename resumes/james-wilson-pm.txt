@@ -1,0 +1,16 @@
+JAMES WILSON
+james.wilson@example.com | linkedin.com/in/jameswilson
+
+EXPERIENCE
+Product Manager, Platform Co. (2021 – Present)
+- Defined requirements and metrics; worked with eng and design
+- Data-driven decisions; user interviews and surveys
+
+Associate PM, E-commerce Co. (2019 – 2021)
+- Feature specs and backlog; some SQL for analytics
+
+EDUCATION
+BS Economics, University
+
+SKILLS
+Product management, PRDs, Analytics, Collaboration

@@ -1,0 +1,13 @@
+ALEX SMITH
+alex.smith@example.com
+
+EXPERIENCE
+Junior Developer, Small Agency (2021 – Present)
+- WordPress sites and small scripts
+- Some Python for internal automation
+
+EDUCATION
+Bootcamp Certificate, Coding Academy (2021)
+
+SKILLS
+Python (beginner), HTML/CSS, JavaScript

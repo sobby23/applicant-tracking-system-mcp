@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "AVA": {
+      "command": "/Users/sobby/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/sobby/Workspace/mcp-demo",
+        "run",
+        "mcp-server-example.py"
+      ]
+    }
+  }
+}

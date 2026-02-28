@@ -1,0 +1,21 @@
+YUKI TANAKA
+yuki.tanaka@example.com | linkedin.com/in/yukitanaka
+
+SUMMARY
+AI/ML Engineer with 4 years building production ML systems. LLMs, RAG, and evaluation pipelines.
+
+EXPERIENCE
+AI Engineer, AI Co. (2021 – Present)
+- Built RAG and prompt pipelines for customer-facing features; Python, LangChain, OpenAI/Anthropic APIs
+- Evaluated and iterated on LLM outputs; embedding and vector DB (Pinecone)
+- Deployed and monitored model endpoints; collaborated with product
+
+ML Engineer, Startup (2019 – 2021)
+- Trained and deployed NLP models; PyTorch, Hugging Face
+- Python services and APIs; AWS
+
+EDUCATION
+MS Computer Science (ML focus), Tech University
+
+SKILLS
+Python, PyTorch, LLMs, RAG, Hugging Face, prompt engineering, vector DBs, AWS

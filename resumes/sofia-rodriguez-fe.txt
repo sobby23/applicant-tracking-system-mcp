@@ -1,0 +1,20 @@
+SOFIA RODRIGUEZ
+sofia.rodriguez@example.com | linkedin.com/in/sofiarodriguez
+
+SUMMARY
+Full-stack engineer with 5 years experience. Strong frontend (React, TypeScript) and backend (Node, Python).
+
+EXPERIENCE
+Senior Engineer, Platform Co. (2019 – Present)
+- React and TypeScript; design system and a11y
+- Node and Python services; REST APIs
+- Performance and testing
+
+Software Engineer, Web Co. (2017 – 2019)
+- Frontend and backend; React and Node
+
+EDUCATION
+BS Computer Science, University
+
+SKILLS
+React, TypeScript, Node, Python, CSS, Accessibility, Testing

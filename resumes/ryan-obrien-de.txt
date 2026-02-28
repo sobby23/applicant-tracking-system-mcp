@@ -1,0 +1,20 @@
+RYAN O'BRIEN
+ryan.obrien@example.com | linkedin.com/in/ryanobrien
+
+SUMMARY
+Data Engineer with 5 years building pipelines and warehouses. SQL, Python, Snowflake, dbt.
+
+EXPERIENCE
+Data Engineer, Data Co. (2020 – Present)
+- Built and maintained ETL pipelines; Snowflake warehouse
+- dbt for transformations; Python for ingestion
+- Airflow for orchestration
+
+Analytics Engineer, Startup (2018 – 2020)
+- SQL and Python; Redshift and ETL
+
+EDUCATION
+BS Statistics, State University
+
+SKILLS
+SQL, Python, Snowflake, dbt, Airflow, ETL

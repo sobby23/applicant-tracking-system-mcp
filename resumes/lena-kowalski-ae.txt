@@ -1,0 +1,17 @@
+LENA KOWALSKI
+lena.kowalski@example.com | linkedin.com/in/lenakowalski
+
+EXPERIENCE
+Software Engineer, AI Team (2021 – Present)
+- Built services around LLM APIs; prompt engineering and basic RAG
+- Python and FastAPI; some exposure to fine-tuning and evaluation
+- No formal ML training or research background
+
+Software Developer, Web Co. (2018 – 2021)
+- Backend Python; REST APIs and databases
+
+EDUCATION
+BS Computer Science, State University
+
+SKILLS
+Python, APIs, prompt engineering, basic ML concepts, FastAPI

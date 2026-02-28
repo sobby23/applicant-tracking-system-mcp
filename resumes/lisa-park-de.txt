@@ -1,0 +1,16 @@
+LISA PARK
+lisa.park@example.com | linkedin.com/in/lisapark
+
+EXPERIENCE
+Data Engineer, E-commerce Co. (2021 – Present)
+- BigQuery and SQL; batch and streaming pipelines
+- Python for data jobs; collaboration with analytics
+
+Data Analyst, Same Co. (2019 – 2021)
+- Heavy SQL and dashboards; some pipeline work
+
+EDUCATION
+MS Data Science, Tech University
+
+SKILLS
+SQL, Python, BigQuery, ETL, Data modeling

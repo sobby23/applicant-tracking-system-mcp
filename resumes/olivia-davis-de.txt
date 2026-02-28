@@ -1,0 +1,14 @@
+OLIVIA DAVIS
+olivia.davis@example.com | linkedin.com/in/oliviadavis
+
+EXPERIENCE
+Analyst, Finance Co. (2020 – Present)
+- SQL for reporting and ad-hoc analysis
+- Excel and Tableau; some Python scripts
+- No formal data pipeline or warehouse experience
+
+EDUCATION
+BA Economics
+
+SKILLS
+SQL, Excel, Tableau, Python (basic)

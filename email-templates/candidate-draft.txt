@@ -1,0 +1,10 @@
+Hi {candidate_name},
+
+Thank you for applying to the {job_role} position.
+
+{body}
+
+We appreciate your interest and the time you took to apply. If you have any questions, please feel free to reply to this email.
+
+Best regards,
+{recruiter_name}
