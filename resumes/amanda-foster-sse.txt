@@ -1,0 +1,20 @@
+AMANDA FOSTER
+amanda.foster@example.com | linkedin.com/in/amandafoster
+
+SUMMARY
+Senior Software Engineer with 5+ years in Java and Kotlin. Backend services and APIs for mobile and web.
+
+EXPERIENCE
+Senior Software Engineer, Media Co. (2019 – Present)
+- Java/Kotlin microservices; REST and GraphQL
+- Cassandra and Elasticsearch; high-throughput pipelines
+- Cross-team API contracts and documentation
+
+Software Engineer, Startup (2017 – 2019)
+- Java backend; MySQL; AWS (EC2, S3)
+
+EDUCATION
+MS Computer Science, University; BS Engineering
+
+SKILLS
+Java, Kotlin, REST, GraphQL, Cassandra, AWS, Git

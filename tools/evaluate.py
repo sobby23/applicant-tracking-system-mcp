@@ -46,14 +46,16 @@ def load_job_description(job_id: str | None = None, job_path: Path | None = None
     return path.read_text(encoding="utf-8", errors="replace")
 
 
-EVALUATION_SYSTEM = """You are a fair, consistent recruiter assistant. You evaluate candidates against the job description only.
+EVALUATION_SYSTEM = """You are a fair, consistent recruiter assistant. You evaluate candidates against the job description.
+When LinkedIn profile text is provided, also compare it to the resume: note what is on LinkedIn but missing or different on the resume (e.g. roles, dates, titles), and any discrepancies. Put that in linkedin_notes.
 Output valid JSON with exactly these keys:
 - ai_score: string, one of "1", "2", "3", "4", "5" (1=poor fit, 5=strong fit)
 - key_strengths: string, 2-5 bullet points on how the candidate matches the job (tie each to a requirement)
 - gaps: string, bullet points where they fall short of requirements (or "None significant" if minor)
 - recommended_action: string, one of "Advance to phone screen", "Reject", "Review with hiring manager"
 - draft_body: string, the middle paragraph only for the candidate email (2-4 sentences, no greeting or sign-off). If advancing: state next step. If reject: polite decline. Professional and concise.
-Be concise. Base everything on the resume and job only. Reply with only the JSON object, no markdown fences or extra text."""
+- linkedin_notes: string, REQUIRED when LinkedIn profile text is included above: write 2-5 bullet points comparing resume vs LinkedIn (dates, roles, discrepancies, or "No significant discrepancies"). When no LinkedIn text is provided, use exactly "Not compared".
+Be concise. Base evaluation on the resume and job; use LinkedIn only for comparison notes. Reply with only the JSON object, no markdown fences or extra text."""
 
 
 def _load_email_template() -> str:
@@ -92,11 +94,12 @@ def evaluate_candidate(
     resume_text: str,
     job_description: str | None = None,
     job_id: str | None = None,
+    linkedin_text: str | None = None,
 ) -> dict:
     """
     Run Claude evaluation and return structured result.
-    job_id (e.g. 'senior-software-engineer', 'product-manager') selects which job description to use; ignored if job_description is provided.
-    Returns dict with: ai_score, key_strengths, gaps, recommended_action, draft_message.
+    If linkedin_text is provided, the model will compare resume vs LinkedIn and set linkedin_notes.
+    Returns dict with: ai_score, key_strengths, gaps, recommended_action, draft_message, linkedin_notes.
     """
     if not job_description:
         job_description = load_job_description(job_id=job_id)
@@ -108,6 +111,15 @@ def evaluate_candidate(
     client = Anthropic(api_key=api_key)
     model = os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-20241022")
 
+    linkedin_block = ""
+    if linkedin_text and linkedin_text.strip():
+        linkedin_block = f"""
+LinkedIn profile (compare to resume for gaps/discrepancies):
+{linkedin_text.strip()}
+
+---
+"""
+
     user_content = f"""Job description:
 {job_description}
 
@@ -116,8 +128,7 @@ Candidate: {applicant_name} ({applicant_email})
 
 Resume:
 {resume_text}
-
----
+{linkedin_block}
 Evaluate this candidate and output the JSON only (no markdown, no extra text)."""
 
     response = client.messages.create(
@@ -129,9 +140,23 @@ Evaluate this candidate and output the JSON only (no markdown, no extra text).""
     text = response.content[0].text
     out = _parse_json_from_response(text)
 
-    for key in ("ai_score", "key_strengths", "gaps", "recommended_action", "draft_body"):
+    for key in ("ai_score", "key_strengths", "gaps", "recommended_action", "draft_body", "linkedin_notes"):
         if key not in out:
             out[key] = ""
+    # Normalize linkedin_notes: accept multiple key names and list/string values (column "LinkedIn Notes" in sheet)
+    _ln = (
+        out.get("linkedin_notes")
+        or out.get("Linkedin_notes")
+        or out.get("LinkedIn_notes")
+        or out.get("linkedIn_notes")
+        or out.get("LinkedIn Notes")
+    )
+    if isinstance(_ln, list):
+        _ln = "\n".join(str(x).strip() for x in _ln if x)
+    out["linkedin_notes"] = str(_ln or "").strip()
+    # When LinkedIn was provided but model returned no notes, set fallback so the sheet gets a value
+    if linkedin_text and linkedin_text.strip() and not out["linkedin_notes"]:
+        out["linkedin_notes"] = "LinkedIn profile compared; see evaluation above."
     # Compose full draft email from template (greeting + job role + body + closing + sign-off)
     body = (out.get("draft_body") or "").strip()
     out["draft_message"] = _compose_draft_message(applicant_name, body, job_id=job_id) if body else ""

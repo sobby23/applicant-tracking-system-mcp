@@ -1,0 +1,20 @@
+PRIYA NAIR
+priya.nair@example.com | linkedin.com/in/priyanair
+
+SUMMARY
+Data Engineer with 3+ years in BigQuery and GCP. Pipelines and warehouse for product analytics.
+
+EXPERIENCE
+Data Engineer, Product Co. (2020 – Present)
+- BigQuery and Looker; batch pipelines in Python
+- Data quality checks and documentation
+- Collaboration with product and analytics
+
+Junior Data Engineer, Startup (2018 – 2020)
+- SQL and Python; small ETL and reporting
+
+EDUCATION
+BS Statistics, University
+
+SKILLS
+SQL, Python, BigQuery, GCP, ETL, Data quality

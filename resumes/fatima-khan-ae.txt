@@ -1,0 +1,20 @@
+FATIMA KHAN
+fatima.khan@example.com | linkedin.com/in/fatimakhan
+
+SUMMARY
+ML Engineer with 3+ years in computer vision and deployment. Moving into LLM-based features.
+
+EXPERIENCE
+ML Engineer, Retail Co. (2020 – Present)
+- Image models (PyTorch); deployed to edge and cloud
+- MLOps: training pipelines, model registry, monitoring
+- Started integrating LLM APIs for product recommendations
+
+Research Intern, Lab (2019 – 2020)
+- CV and deep learning; publications
+
+EDUCATION
+MS Machine Learning, University
+
+SKILLS
+Python, PyTorch, MLOps, Computer vision, LLMs (emerging)

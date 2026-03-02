@@ -1,0 +1,20 @@
+MARCUS WEBB
+marcus.webb@example.com | linkedin.com/in/marcuswebb
+
+SUMMARY
+Frontend Engineer with 5 years in React and Vue. Design systems and performance optimization.
+
+EXPERIENCE
+Frontend Engineer, Media Co. (2019 – Present)
+- React and TypeScript; shared component library
+- Performance (Core Web Vitals); A/B tests and feature flags
+- Next.js and GraphQL consumption
+
+Frontend Developer, Agency (2017 – 2019)
+- Vue and JavaScript; responsive and accessible sites
+
+EDUCATION
+BS Computer Science, Tech College
+
+SKILLS
+React, TypeScript, Vue, CSS, Next.js, GraphQL, Performance

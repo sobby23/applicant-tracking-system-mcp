@@ -1,0 +1,19 @@
+TYLER BROOKS
+tyler.brooks@example.com | linkedin.com/in/tylerbrooks
+
+SUMMARY
+Software Engineer with 4 years in Python and cloud. APIs and serverless on AWS.
+
+EXPERIENCE
+Software Engineer, SaaS Co. (2020 – Present)
+- Python and Node APIs; Lambda and API Gateway
+- RDS and DynamoDB; CI/CD with GitHub Actions
+
+Junior Developer, Consulting (2018 – 2020)
+- Python scripts and small backend services
+
+EDUCATION
+BS Computer Science, State University
+
+SKILLS
+Python, Node, AWS, Lambda, REST APIs, PostgreSQL

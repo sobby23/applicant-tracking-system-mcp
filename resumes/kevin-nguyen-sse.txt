@@ -1,0 +1,20 @@
+KEVIN NGUYEN
+kevin.nguyen@example.com | linkedin.com/in/kevinnguyen
+
+SUMMARY
+Software Engineer with 4 years full-stack and backend. Strong in Python, Node, and AWS.
+
+EXPERIENCE
+Software Engineer, E-commerce Co. (2020 – Present)
+- Backend APIs (Python, FastAPI); PostgreSQL and Redis
+- Some frontend (React) for internal tools
+- CI/CD and Terraform
+
+Junior Developer, Agency (2018 – 2020)
+- Python and JavaScript; small projects and integrations
+
+EDUCATION
+BS Computer Science, State College
+
+SKILLS
+Python, Node.js, REST APIs, PostgreSQL, AWS, React (basic)

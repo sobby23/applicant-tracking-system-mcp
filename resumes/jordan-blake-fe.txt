@@ -1,0 +1,20 @@
+JORDAN BLAKE
+jordan.blake@example.com | linkedin.com/in/jordanblake
+
+SUMMARY
+Frontend Developer with 4 years building user-facing web apps. React, state management, and testing.
+
+EXPERIENCE
+Frontend Developer, Fintech Co. (2020 – Present)
+- React and Redux; complex forms and workflows
+- Cypress e2e tests; responsive and cross-browser
+- Collaboration with UX and backend
+
+Web Developer, E-commerce (2018 – 2020)
+- React and JavaScript; product and checkout pages
+
+EDUCATION
+Bootcamp + BS Communications
+
+SKILLS
+React, Redux, JavaScript, CSS, Cypress, Responsive design

@@ -1,0 +1,20 @@
+SAMIRA PATEL
+samira.patel@example.com | linkedin.com/in/samirapatel
+
+SUMMARY
+AI Engineer with 3 years in NLP and LLM applications. Prompt engineering and RAG.
+
+EXPERIENCE
+AI Engineer, Support Co. (2021 – Present)
+- LLM-powered support flows; prompt engineering and evaluation
+- RAG with internal docs; Python, LangChain
+- A/B tests and quality metrics
+
+ML Engineer, Startup (2019 – 2021)
+- NLP pipelines; Hugging Face and PyTorch
+
+EDUCATION
+MS Computer Science (NLP), University
+
+SKILLS
+Python, LLMs, prompt engineering, RAG, LangChain, Hugging Face

@@ -1,0 +1,20 @@
+JENNIFER WALSH
+jennifer.walsh@example.com | linkedin.com/in/jenniferwalsh
+
+SUMMARY
+Data Engineer with 5 years building warehouses and pipelines. Snowflake, dbt, and Airflow.
+
+EXPERIENCE
+Data Engineer, Analytics Co. (2020 – Present)
+- Snowflake warehouse; dbt models and documentation
+- Airflow DAGs for batch and incremental loads
+- Python and SQL; worked with analytics and BI
+
+Data Analyst, Same Co. (2018 – 2020)
+- SQL and dashboards; helped design star schemas
+
+EDUCATION
+MS Data Engineering, Tech University
+
+SKILLS
+SQL, Python, Snowflake, dbt, Airflow, ETL, Data modeling

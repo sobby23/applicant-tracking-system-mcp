@@ -48,3 +48,14 @@ def get_applicant_by_name(name: str) -> dict | None:
         if a["name"].lower() == name.strip().lower():
             return a
     return None
+
+
+def get_applicant_by_email(email: str) -> dict | None:
+    """Return first applicant whose Email matches (case-insensitive)."""
+    if not email or not email.strip():
+        return None
+    want = email.strip().lower()
+    for a in load_applicants():
+        if (a.get("email") or "").strip().lower() == want:
+            return a
+    return None

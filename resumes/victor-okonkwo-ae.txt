@@ -1,0 +1,20 @@
+VICTOR OKONKWO
+victor.okonkwo@example.com | linkedin.com/in/victorokonkwo
+
+SUMMARY
+ML Engineer with 5 years. Production models and MLOps; recent focus on LLMs and RAG.
+
+EXPERIENCE
+Senior ML Engineer, Enterprise Co. (2020 – Present)
+- LLM integration and RAG for internal tools; fine-tuning and evaluation
+- PyTorch and Hugging Face; ML pipelines and monitoring
+- Python services on AWS
+
+ML Engineer, Data Co. (2017 – 2020)
+- Recommendation and NLP models; TensorFlow and PyTorch
+
+EDUCATION
+PhD (ML), University; BS Computer Science
+
+SKILLS
+Python, PyTorch, LLMs, RAG, MLOps, Hugging Face, AWS

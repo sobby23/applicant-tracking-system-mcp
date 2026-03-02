@@ -1,0 +1,21 @@
+RACHEL GREEN
+rachel.green@example.com | linkedin.com/in/rachelgreen
+
+SUMMARY
+Senior Software Engineer with 6 years building distributed systems in Go and Python. Led event-driven services at scale.
+
+EXPERIENCE
+Senior Software Engineer, Platform Co. (2021 – Present)
+- Event-driven microservices (Kafka, Go); REST and gRPC APIs
+- PostgreSQL and caching; on-call and incident response
+- Mentored junior engineers
+
+Software Engineer, Cloud Inc. (2018 – 2021)
+- Python and Go services on GCP; Pub/Sub, Cloud Run
+- Database design and migrations
+
+EDUCATION
+BS Computer Science, Tech Institute
+
+SKILLS
+Go, Python, Kafka, PostgreSQL, GCP, REST APIs, gRPC

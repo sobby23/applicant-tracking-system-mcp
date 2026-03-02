@@ -1,0 +1,20 @@
+CARLOS MENDEZ
+carlos.mendez@example.com | linkedin.com/in/carlosmendez
+
+SUMMARY
+Data Engineer with 4 years in Spark and cloud data platforms. Batch and streaming on AWS.
+
+EXPERIENCE
+Data Engineer, AdTech Co. (2021 – Present)
+- Spark (PySpark) pipelines on EMR; S3 data lake
+- Redshift and Athena; orchestration with Step Functions
+- Python and Scala for data jobs
+
+ETL Developer, Retail Co. (2018 – 2021)
+- SQL Server and SSIS; migrated to cloud
+
+EDUCATION
+BS Computer Science, State University
+
+SKILLS
+PySpark, SQL, AWS, Redshift, S3, Python, Scala

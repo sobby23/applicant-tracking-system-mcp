@@ -1,0 +1,20 @@
+CHEN WEI
+chen.wei@example.com | linkedin.com/in/chenwei
+
+SUMMARY
+AI Engineer with 4 years in NLP and LLM applications. Production RAG and evaluation pipelines.
+
+EXPERIENCE
+AI Engineer, Search Co. (2021 – Present)
+- RAG and retrieval for search; Python, LangChain, vector DBs
+- LLM evaluation and prompt iteration; embeddings and ranking
+- Deployed on AWS; monitoring and A/B tests
+
+ML Engineer, Startup (2019 – 2021)
+- NLP models with PyTorch and Hugging Face; Python APIs
+
+EDUCATION
+MS Computer Science (NLP), Tech University
+
+SKILLS
+Python, PyTorch, LLMs, RAG, LangChain, vector DBs, AWS

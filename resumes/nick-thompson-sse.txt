@@ -1,0 +1,19 @@
+NICK THOMPSON
+nick.thompson@example.com | linkedin.com/in/nickthompson
+
+SUMMARY
+Software Engineer with 3+ years. Python backend and some DevOps. GCP and Terraform.
+
+EXPERIENCE
+Software Engineer, Health Co. (2021 – Present)
+- Python (FastAPI) services on GCP; Cloud Run and BigQuery
+- Terraform for infra; monitoring and logging
+
+Associate Developer, Agency (2019 – 2021)
+- Python and JavaScript; internal tools
+
+EDUCATION
+BS Computer Science, Tech College
+
+SKILLS
+Python, FastAPI, GCP, Terraform, REST APIs, SQL

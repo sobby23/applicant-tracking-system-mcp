@@ -1,0 +1,20 @@
+LAUREN HAYES
+lauren.hayes@example.com | linkedin.com/in/laurenhayes
+
+SUMMARY
+Senior Software Engineer with 6 years. Backend and APIs; led team and on-call.
+
+EXPERIENCE
+Senior Software Engineer, Logistics Co. (2019 – Present)
+- Java and Python services; event-driven (Kafka)
+- PostgreSQL and Redis; team lead and mentoring
+- On-call and incident response
+
+Software Engineer, Startup (2016 – 2019)
+- Full-stack; Python/Django and React
+
+EDUCATION
+MS Computer Science, University
+
+SKILLS
+Java, Python, Kafka, PostgreSQL, Redis, REST, AWS

@@ -1,5 +1,15 @@
 # Model Context Protocol (MCP)
 
+## Watch the presentation
+
+A full presentation of AVA (the recruiting assistant built on this MCP server)—including the problem it solves, architecture, and a live demo—is available to watch and evaluate:
+
+**[Watch AVA presentation video (Google Drive)](https://drive.google.com/file/d/1BuV0v0yYRR5p9GUXOtI09N7ja-fLfPCx/view?usp=sharing)**
+
+The video covers: existing ATS pain points, how AVA addresses them, the one critical decision that stays human (“the system recommends; the human decides”), and a demo of processing applications and drafting emails.
+
+---
+
 ## How to run this example
 
 1. Clone this repo
@@ -38,17 +48,21 @@ uv run mcp dev mcp-server-example.py
 
 **Trigger: upload new resumes to a directory.** No Gmail read. You provide:
 - **applicants.csv** — columns: Name, Email, LinkedIn, Resume name, **Job** (optional). **Job** = job ID (filename stem in `jobs/`, e.g. `senior-software-engineer` or `product-manager`). Defaults to `senior-software-engineer` if missing. Add a row when you add a new resume.
-- **resumes/** — one file per resume; filenames must match "Resume name" in the CSV (e.g. `jane-doe.txt`).
+- **resumes/** — one file per resume; filenames must match "Resume name" in the CSV (e.g. `jane-doe-sse.txt`).
 - **jobs/** — one `.md` file per role (e.g. `senior-software-engineer.md`, `product-manager.md`). The **job ID** is the filename without `.md`. Each applicant is evaluated against the job indicated in their CSV row.
+- **linkedin/** — (optional, for demo) One `.md` file per candidate; filename = resume stem without extension (e.g. `jane-doe-sse.md`). Used to compare resume vs LinkedIn when you ask: the `read_linkedin(resume_name)` tool loads a profile; comparison appears in the evaluation response.
 - A **Google Sheet** with a tab named "Candidates" (or set `GOOGLE_SHEET_NAME`) and headers: **Name, Email, Job Applied, AI Score, Key Strengths, Gaps, Recommended Action, Status**.
 
 **Flow:**
-1. Upload new resume(s) to `resumes/` and add the corresponding row(s) to `applicants.csv`.
-2. Ask AVA to **"Process new applications"** (or "Sync applicants to the sheet"). AVA runs `process_new_applications()`: evaluates each applicant not yet in the sheet (or updates existing rows), and adds/updates the Google Sheet automatically. No approval per candidate.
+1. Upload new resume(s) to `resumes/` and add the corresponding row(s) to `applicants.csv`. Optionally add a matching file in `linkedin/` (e.g. `jane-doe-sse.md`) so evaluation can compare resume vs LinkedIn when you ask.
+2. Ask AVA to **"Process new applications"** (or "Sync applicants to the sheet"). AVA runs `process_new_applications()`: evaluates each applicant and adds or updates rows. For LinkedIn comparison, ask explicitly (e.g. "Process new applications and compare with LinkedIn").
 3. Open the sheet, filter/sort by score, strengths, gaps, status.
 4. Ask AVA to **draft email** only for the candidates you choose (e.g. "Draft email to Jane Doe", "Create drafts for these 5"). AVA creates Gmail drafts; you send after review.
 
 **Email draft template:** Drafts use the template in `email-templates/candidate-draft.txt` (greeting, body from the evaluator, sign-off). Edit that file to change wording; set `RECRUITER_NAME` in `.env` for the sign-off name.
+
+### LinkedIn comparison (demo, opt-in)
+The `read_linkedin(resume_name)` tool reads a markdown file from `linkedin/` whose filename matches the resume stem (e.g. `jane-doe-sse.md` for `jane-doe-sse.txt`). **LinkedIn is only used when you explicitly ask** for it: use **evaluate_candidate_with_linkedin** or **process_new_applications_with_linkedin** (e.g. "evaluate Jane Doe and compare with her LinkedIn"). The comparison appears in the evaluation response (`linkedin_notes`); it is not written to the Google Sheet. No real LinkedIn API is used; the demo uses sample `.md` profiles in `linkedin/`.
 
 ## Customizing AVA's Behavior
 

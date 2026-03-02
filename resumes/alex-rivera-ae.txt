@@ -1,0 +1,20 @@
+ALEX RIVERA
+alex.rivera@example.com | linkedin.com/in/alexrivera
+
+SUMMARY
+AI/ML Engineer with 5 years. Fine-tuning, RAG, and production ML systems. Strong Python and cloud.
+
+EXPERIENCE
+Senior AI Engineer, Platform Co. (2020 – Present)
+- Fine-tuned LLMs for domain-specific tasks; Hugging Face, PyTorch
+- RAG pipelines and evaluation; vector DBs and embeddings
+- AWS deployment; cost and latency optimization
+
+ML Engineer, AI Startup (2017 – 2020)
+- NLP and recommendation models; Python and TensorFlow
+
+EDUCATION
+PhD (ML), Research University; BS Computer Science
+
+SKILLS
+Python, PyTorch, LLMs, fine-tuning, RAG, Hugging Face, AWS
