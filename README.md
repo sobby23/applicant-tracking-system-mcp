@@ -1,15 +1,5 @@
 # Model Context Protocol (MCP)
 
-## Watch the presentation
-
-A full presentation of AVA (the recruiting assistant built on this MCP server)—including the problem it solves, architecture, and a live demo—is available to watch and evaluate:
-
-**[Watch AVA presentation video (Google Drive)](https://drive.google.com/file/d/1BuV0v0yYRR5p9GUXOtI09N7ja-fLfPCx/view?usp=sharing)**
-
-The video covers: existing ATS pain points, how AVA addresses them, the one critical decision that stays human (“the system recommends; the human decides”), and a demo of processing applications and drafting emails.
-
----
-
 ## How to run this example
 
 1. Clone this repo
